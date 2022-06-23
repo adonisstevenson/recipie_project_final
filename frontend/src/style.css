@@ -1,0 +1,42 @@
+
+.dish-card{
+    color: rgba(255, 255, 255, 1);
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 1);
+    background-blend-mode: darken;
+    background-size: 100% 100%;
+    position: relative;
+    background-color: rgba(0, 0, 0, .2);
+    padding: 3.5rem 1.5rem 1.5rem 1.5rem;
+    margin-top: 50px;
+    height: 30rem;
+}
+
+.lead{
+    overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 2; /* number of lines to show */
+           line-clamp: 2; 
+   -webkit-box-orient: vertical;
+}
+.kind-badge{
+    position: absolute; 
+    top: 2rem; 
+    left: 2rem;
+}
+
+.dish-photo{
+    max-width: 500px;
+    height: auto;
+}
+.login-box{
+    padding: 2rem;
+    border-radius: 1rem;
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(133,38,139,1) 0%, rgba(55,54,54,1) 100%);
+    border: 1px solid rgba(244,76,255,0.1);
+}
+.login-box{
+    color: white;
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, .1);
+}
