@@ -61,9 +61,6 @@ module.exports = {
 
         let yourDate = new Date()
         
-
-
-
         db.query(`INSERT INTO comments (content, date, recipie_id) VALUES ('${comment}', '${yourDate.toISOString().split('T')[0]}', ${dish_id}) RETURNING id`, function(err, result) {
             if (err){
                 throw err;
@@ -74,10 +71,5 @@ module.exports = {
 
         });
         
-    },
-    countComments(dish_id, callback){
-
-        db.query(``);
-
     }
 }

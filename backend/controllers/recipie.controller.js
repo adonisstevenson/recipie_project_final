@@ -116,7 +116,7 @@ module.exports = {
 
         const user_id = req.session.user.id;
 
-        RecipieModel.comments(dish_id, user_id, comment, function(err, result){
+        RecipieModel.comment(dish_id, user_id, comment, function(err, result){
             if (err){
                 throw err;
             }
